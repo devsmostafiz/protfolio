@@ -1,0 +1,651 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* font-family: 'Caveat', cursive;
+font-family: 'Open Sans', sans-serif; */
+/* ============ Nav bar start here ======= */
+.nav_custom{
+    margin-top: 50px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.nav-item{
+    padding: 0 17px;
+}
+.nav_icon_wrapper{
+    display: flex;
+}
+.nav_icon{
+    padding: 20px;
+    border: 1px solid rgb(235, 233, 233);
+    border-radius: 50px;
+    margin: 5px;
+    color: black;
+    opacity: 0.7;
+    font-size: 25px;
+    transition: all linear 0.3s;
+}
+.nav_icon:hover{
+    background-color: orangered;
+    color: #ffff;
+    opacity: 100%;
+
+}
+.dropdown{
+    margin-top: 15px;
+}
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.7;
+    position: relative;
+    transition: all linear 0.3s;
+}
+.nav-link:hover{
+    opacity: 100%;
+}
+.nav-link::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 30px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: all linear 0.3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+/* =========== Banner area start here ============ */
+#banner{
+    padding-bottom: 100px;
+    background-color: #f3f0f0;
+}
+.banner_rapper{
+}
+.banner_text{
+    background-image: url(../images/s1.png);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+.banner_img{
+    overflow: hidden;
+    position: relative;
+}
+.personal_info{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    bottom: 10px;
+    right: 0px;
+    background-color: #ff4a54;
+    border-radius: 10px;
+}
+.info{
+    width: 140px;
+    height: 100px;
+    bottom: 10px;
+    right: 0px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 10px 10px 0 ;
+}
+.personal_info_two{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    bottom: 10px;
+    right: 160px;
+    background-color: #ff4a54;
+    border-radius: 10px;
+}
+.personal_info_three{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    bottom: 10px;
+    right: 320px;
+    background-color:#ff4a54;
+    border-radius: 10px;
+}
+.info_title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #838694;
+    text-transform: capitalize;
+    padding: 25px 12px 0 12px;
+    text-align: center;
+}
+.info_pera{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #171717;
+    text-transform: capitalize;
+    padding: 0 12px 0 12px;
+    text-align: center;
+}
+.banner_img::after{
+    content: url(../images/s4.png);
+    position: absolute;
+    left:0;
+    top: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.bng_img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.bt_first{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    color: #0e121d;
+    padding-top: 80px;
+    text-transform: capitalize;
+}
+.bt_first::after{
+    position: absolute;
+    content: "";
+    left: 93px;
+    top: 99px;
+    width: 60px;
+    height: 2px;
+    background-color: #0e121d;
+}
+.bt_secound{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    color: #0e121d;
+}
+.bt_third{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 8px;
+    margin-bottom: 15px;
+}
+.bt_pera{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #838694;
+    position: relative;
+}
+.bnner_btn{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 20px;
+    background-color: #ff4a54;
+    border: 0;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.bnner_btn:hover{
+    background-color: #002d61;
+}
+.bt_pera::before{
+    position: absolute;
+    content: url(../images/s2.png);
+    left: 0;
+    top: 175px;
+    height: 100%;
+    width: 100%;
+}
+.bt_end{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 6px 12px;
+}
+.abuticon{
+    color: #00ce7d;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* ======= About me area start here start here ===== */
+#about{
+    padding: 100px 0;
+}
+.btn_wrapper{
+    margin-bottom: 100px;
+}
+.about_head{
+    color: #0e121d;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+}
+.about_head::before{
+    position: absolute;
+    content: url(../images/s4.png);
+    width: 100%;
+    height: 100%;
+    left: 340px;
+    top: -110px;
+}
+.address_bar{
+    display: flex;
+    background-color: #f7faff;
+}
+.address_bar_two{
+    display: flex;
+    border: 1px solid#e1e1e1;
+}
+.add_info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.add_icon{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #616263;
+    margin: 16px;
+}
+.add_icon_two{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f7faff;
+    margin: 16px;
+}
+.secound{
+    font-size: 30px;
+}
+.infoicon{
+    color: #ffffff;
+    font-size: 40px;
+}
+.info_age{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0e121d;
+    text-transform: capitalize;
+}
+.info_eml{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2350cd;
+    cursor: pointer;
+}
+.about_pera{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #838694;
+    padding-bottom: 30px;
+}
+.about_btn{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 20px;
+    background-color: #ff4a54;
+    border: 0;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+.about_btn:hover{
+    background-color: #002d61;
+}
+.btn_wrapper{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.ab_sk{
+    margin: 20px 0 20px 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 50px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.ab_icon{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    color: #0e121d;
+    transition: all linear 0.3s;
+}
+.ab_icon:hover{
+    color: #ffffff;
+}
+.ab_sk:hover{
+    background-color:#ff4a54 ;
+}
+.about_pera{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 30px;
+    color: #838694;
+}
+.sing{
+    margin-bottom: 100px;
+}
+/* <!-- ======= Progress bar start here ======== --> */
+
+.skill_progress{
+    display: flex;
+    margin-left: 70px;
+}
+.skill{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.outer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+    padding: 20px;
+}
+.inner{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+#number{
+    font-weight: 600;
+    color: #555;
+    font-size: 35px;
+}
+circle{
+   fill: none;
+   stroke: url(#GradientColor);
+   stroke-width: 20px;
+   stroke-dasharray: 472;
+   stroke-dashoffset: 472;
+   animation: anim 2s linear forwards;
+}
+svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset:95;
+    }
+}
+.skill_info{
+    padding-left: 30px;
+}
+.skill_title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color:#7700ff;
+    text-transform: capitalize;
+}
+.skill_pera{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 30px;
+    color: #838694;
+}
+/* <!-- ======= Progress bar 2nd here ======== --> */ 
+.skill_progress_two{
+    display: flex;
+    margin-left: 20px;
+}
+.ctwo{
+    fill: none;
+    stroke: url(#GradientColors);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animtwo 2s linear forwards;
+ }
+ @keyframes animtwo{
+    100%{
+        stroke-dashoffset:330;
+    }
+}
+.skill_title_two{
+    color:#ff0000 ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.numbertwo{
+    font-weight: 600;
+    color: #555;
+    font-size: 35px;
+}
+/* <!-- ======= Progress bar 3rd here ======== --> */ 
+.skill_progress_three{
+    display: flex;
+    margin-left: 50px;
+}
+.cthree{
+    fill: none;
+    stroke: url(#GradientColorss);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animthree 2s linear forwards;
+}
+@keyframes animthree{
+    100%{
+        stroke-dashoffset:188;
+    }
+}
+.skill_title_three{
+    color:#15dd07 ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+.numberthree{
+    font-weight: 600;
+    color: #555;
+    font-size: 35px;
+}
+/* <!-- ======= Progress bar end here ======== --> */
+/* <!-- =========== Service area start here ============== --> */
+#service{
+    position: relative;
+}
+.service_head{
+    background-image: url(../images/bg.jpg);
+    width: 100%;
+    height: 500px;
+    position: relative;
+
+}
+.service_header{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 120px;
+}
+.some_header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 30px;
+    color: #838694;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.bg_imgtwo{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* === Slick clider area start here ======== */
+#service_items{
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.items_wrapper{
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.service_card{
+    background-color: #fff;
+    margin: 0 15px;
+    border-radius: 20px 0 20px 0;
+}
+.service_hvr{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+}
+.shit1{
+    left: 0;
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+}
+.shittt{
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+}
+.cards{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    position: relative;
+}
+.items_icom{
+    width: 135px;
+    height: 135px;
+    border: 1px solid rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 50px;
+    border-radius: 20%;
+}
+.robt{
+    font-size: 80px;
+}
+.items_head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    color: #0e121d;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.items_info{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #838694;
+    text-align: center;
+    margin-top: 20px;
+}
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+/* ======= About me area start here start here ===== */
+
+
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
+/* ================== Nav bar start here ================ */
