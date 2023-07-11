@@ -48,3 +48,10 @@ $(function(){
 })
 
 // ========== Slik clider end here ============
+// $(function(){
+//     $('.personal_info').tilt({
+//         scale: 1.2
+//     })
+// })
+
+// ========== Slik clider end here ============

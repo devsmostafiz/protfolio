@@ -13,13 +13,14 @@ ul,ol{
 font-family: 'Open Sans', sans-serif; */
 /* ============ Nav bar start here ======= */
 .nav_custom{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     position: sticky;
     left: 0;
-    top: 0;
+    top: 30px;
     width: 100%;
     border-radius: 25px;
     background-color: #ffffff;
+    z-index: 9999;
 }
 .nav-item{
     padding: 0 17px;
@@ -72,7 +73,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 /* =========== Banner area start here ============ */
 #banner{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     background-color: #f3f0f0;
 }
 .banner_rapper{
@@ -539,40 +540,47 @@ svg{
     top: 320px;
     left: 50%;
     transform: translateX(-50%);
+    padding-bottom: 100px;
 }
 .items_wrapper{
     display: flex;
     gap: 30px;
-    /* justify-content: center; */
     justify-content: space-between;
 }
 .service_card{
     background-color: #fff;
     margin: 0 15px;
-    border-radius: 20px 0 20px 0;
+      
 }
 .service_hvr{
         position: absolute;
         width: 100%;
         height: 100%;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+        transition: all linear 0.3s;
 }
 .shit1{
-    left: 0;
-    top: 0;
+    left: -42px;
+    top: -20px;
     opacity: 1;
     visibility: visible;
     position: absolute;
+    transition: all linear 0.3s;
+}
+.cards:hover .shit1{
+    left:-15px;
+    top: 0;
 }
 .shittt{
-    right: 0;
-    bottom: 0;
+    right: -42px;
+    bottom: -20px;
     opacity: 1;
     visibility: visible;
     position: absolute;
+    transition: all linear 0.3s;
+}
+.cards:hover .shittt{
+    right: 15px;
+    bottom: 0px;
 }
 .cards{
     text-align: center;
@@ -581,6 +589,31 @@ svg{
     flex-direction: column;
     padding: 15px;
     position: relative;
+    overflow: hidden;  
+    border-radius: 20px 0 20px 0;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                inset -5px -5px 5px rgba(255,255,255,0.5),
+                5px 5px 5px rgba(0,0,0,0.05),
+                -5px -5px 5px rgba(255,255,255,0.5);    
+}
+.service_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+    background-color: #ff4a54;
+    border-radius: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all linear 0.3s;
+
+}
+.service_card:hover .service_btn{
+    opacity: 100%;
+    margin-top: 0px;
 }
 .items_icom{
     width: 135px;
@@ -592,9 +625,17 @@ svg{
     margin-left: 30%;
     margin-top: 50px;
     border-radius: 20%;
+    transition: all linear 0.3s;
+}
+.cards:hover .items_icom{
+    background-color: #ff4a54;
 }
 .robt{
     font-size: 80px;
+    transition: all linear 0.3s;
+}
+.cards:hover .items_icom .robt{
+    color: #ffff;
 }
 .items_head{
     font-family: 'Open Sans', sans-serif;
@@ -614,38 +655,122 @@ svg{
     text-align: center;
     margin-top: 20px;
 }
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
-/* ======= About me area start here start here ===== */
 
+/* ======= Skills area start here ===== */
+#skills{
+    background-image: url(../images/skillbg.jpg);
+    margin-top: 450px;
+    position: relative;
+}
+.skill_img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 526px;
+    height: 551px;
+}
+.skills_title{
+    text-transform:capitalize;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #0e121d;
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.skills_title::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: #ff4a54;
+    right: 95px;
+    top: 50%;
+}
+.data_box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    transition: all linear 0.3s;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.data_box:hover{
+    border: 0.05px solid #ff4a54;
+}
+.years{
+    width: 150px;
+    text-align: center;
+}
+.yearss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameOfyear{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: hsl(229, 7%, 55%);
+    padding-left: 30px;
+}
+.circlePointer{
+    width: 4px;
+    height: 4px;
+    background-color: #9e9e9e;
+    margin-left: 40px;
+    position: relative;
+    border-radius: 50%;
+}
+.data_box:hover .circlePointer{
+    background-color: #ff4a54;
+}
+.circlePointer::after{
+    content: "";
+    position: absolute;
+    left: -15px;
+    right: -15px;
+    top: -15px;
+    bottom: -15px;
+    border: 1px solid #9e9e9e;
+    border-radius: 50%;
+    padding: 10px;
+}
+.data_box:hover .circlePointer::after{
+    border: 1px solid #ff4a54;
+}
 
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
-/* ================== Nav bar start here ================ */
+.nameOfExpr{
+   font-size: 26px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #0e121d;
+    text-transform: capitalize;
+}
+.nameOfsite{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #838694;
+}
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
+/* ======= About me area start here ===== */
