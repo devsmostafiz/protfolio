@@ -757,9 +757,392 @@ svg{
     line-height: 30px;
     color: #838694;
 }
-/* ======= About me area start here ===== */
-/* ======= About me area start here ===== */
-/* ======= About me area start here ===== */
+/* =======  Work Shokes area start here ===== */
+#Work_sokes{
+    padding: 150px 0;
+}
+.showcase_title{
+    text-align: center;
+}
+.showcase_head{
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #0e121d;
+    text-transform: capitalize;
+}
+.showcase_pera{
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #838694;
+    text-transform: capitalize;
+}
+.mixit_btn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+.work_mixit_btn{
+    padding: 10px;
+    text-transform: capitalize;
+    color: #171717;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #ffff;
+    transition: all linear 0.3s;
+}
+.work_mixit_btn:hover{
+    color: #ff4a54;
+}
+.mixit_main{
+    display: flex;
+    gap: 33px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.mixit_item{
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+.overlay_mixit{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.mixit_item:hover .overlay_mixit {
+    opacity: 1;
+}
+.mixit_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay_title{
+    color: #ffffff;
+    margin: 30px;
+    padding: 10px;
+    position: absolute;
+    background-color: #ff4a54;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.overlay_icon{
+    position: absolute;
+    padding: 25px;
+    background-color: #1c1919;
+    top: 120px;
+    left: 140px;
+    border-radius: 50px;
+    color: #ff4a54;
+    font-size: 30px;
+    cursor: pointer;
+}
+.sockes_btn_wrapper{
+    text-align: center;
+}
+.shockes_btn{
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #ff4a54;
+    border: 0;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.shockes_btn:hover{
+    background-color: #002d61;
+}
+/* ======= Team Member area start here ===== */
+#tiem_member{
+
+}
+.team_wrapper{
+    display: flex;
+    gap: 30px;
+}
+.member{
+    width: 270px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+/* .member::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    transition: .3s all;
+    background: linear-gradient(to bottom,
+     rgba(0, 0, 0, 0) 0%,
+     rgba(2, 2, 0, 0) 1%, #000 100%);
+} */
+.member_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team_overlay{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: all linear 0.3s;
+    background: linear-gradient(to bottom,
+     rgba(0, 0, 0, 0) 0%,
+     rgba(2, 2, 0, 0) 1%, #000 100%);
+}
+.memicon{
+    margin-top: 134px;
+    padding: 30px;
+    background-color: #ff4a54;
+    border-radius: 50px;
+    font-size: 25px;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.team_overlay:hover .memicon{
+    opacity:1 ;
+    transform: translateY(-50px);
+    margin-bottom: 30px;
+}
+.member_name{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    transition: all  linear 0.3s;
+}
+.team_overlay:hover .member_name{
+    transform: translateY(-50px);
+}
+.member_deg{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    transition: all  linear 0.3s;
+}
+.team_overlay:hover .member_deg{
+    transform: translateY(-40px);
+}
+.member_deg::after{
+    position: absolute;
+    content: "";
+    left: 50px;
+    bottom: -20px;
+    width: 235px;
+    height: 2px;
+    background-color: #ffff;
+    opacity: 0 ;
+    transition: all linear 0.3s;
+}
+.team_overlay:hover .member_deg::after{
+    opacity: 1;
+}
+.membercocial{
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-right: 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.membercocial:hover{
+    background-color: #ff4a54;
+    border: none;
+}
+.team_overlay:hover .membercocial{
+    opacity: 1;
+}
+/* ======= Pricing Plan area start here ===== */
+#pricing{
+    padding: 100px 0;
+    
+}
+.Pricing_header{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60px;
+    color: #000;
+    text-transform: capitalize;
+}
+.plan_option{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: #a19e9e;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.pricing_cards{
+    padding-top: 80px;
+    gap: 30px;
+}
+.prcitem{
+    border: 1px solid black;
+    position: relative;
+    transition: all linear 0.3s;
+    padding: 0;
+}
+.prcitem:hover{
+    border-radius: 0 180px 0 0;
+}
+.prcng_amout{
+    display: flex;
+}
+.prcicon{
+    color: #fff;
+    background-color: #4a4949;
+    font-size: 50px;
+    padding: 40px 60px;
+    margin: 50px 0 30px 30px;
+    transition: all linear 0.3s;
+}
+.prcitem:hover .prcicon{
+    background-color: #ff4a54;
+    border-radius: 0 50px 0 50px;
+}
+.prcng_amout{
+    margin-left: 30px;
+}
+.percingspn{
+    font-size: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-style: normal;
+}
+.percingheds{
+    margin: 10px 0 0 0;
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000;
+    font-style: normal;
+    transition: all linear 0.3s;
+}
+.prcitem:hover .percingheds{
+    color:#ff4a54 ;
+}
+.percingpera{
+    margin: 55px 0 0 0;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #353434;
+    font-style: normal;
+}
+.basic_plan{
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.pitemicon{
+    color: #00b306;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.pitemsnm{
+    color: #797878;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+.pitemiconx{
+    color: #ff0000;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.percrdbtn{
+    padding: 20px;
+    margin: 15px 0 45px 30px;
+    background-color:#131212 ;
+    border: 0;
+    border-radius: 10px;
+    z-index: 2000;
+    transition: all linear 0.3s;
+}
+.prcitem:hover .percrdbtn{
+    background-color: #ff4a54;
+}
+.percrdbtntx{
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+.percrdbtnicon{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.percrdimgs{
+    overflow: hidden;
+    position: absolute;
+    width: 354px;
+    height: 158px;
+    right: 0;
+    bottom: 0;
+    z-index: 11;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+.prcitem:hover .percrdimgs{
+    opacity: 1;
+}
+.percrdimg{
+    width: 100%;
+    height: 100%;
+    
+}
 /* ======= About me area start here ===== */
 /* ======= About me area start here ===== */
 /* ======= About me area start here ===== */

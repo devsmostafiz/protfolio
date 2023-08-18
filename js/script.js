@@ -55,3 +55,26 @@ $(function(){
 // })
 
 // ========== Slik clider end here ============
+// ========== mixit start here ============
+$(function(){
+    var containerEl = document.querySelector(".mixit_main");
+    var mixer = mixitup(containerEl, {
+        animation: {
+            duration: 1000
+        }
+    });
+    // var containerEl = document.querySelector(".mixit_main");
+    // var mixer = mixitup(containerEl,{animation:{ duration: 1000 }});
+})
+// ========== mixit end here ============
+/* ======= Team Member area start here ===== */
+$(function(){
+    $('.team_wrapper').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows:false
+      });
+})
+/* ======= Team Member area end here ===== */
