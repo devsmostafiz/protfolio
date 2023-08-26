@@ -78,3 +78,16 @@ $(function(){
       });
 })
 /* ======= Team Member area end here ===== */
+/* ======= blog news area start here ===== */
+
+$(function(){
+    $('.news_blogs_wrapper').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows:false
+      });
+})
+/* ======= blog news area end here  ===== */
+/* ======= Team Member area end here ===== */
