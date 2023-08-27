@@ -1310,7 +1310,7 @@ svg{
     padding: 15px;
 }
 .blog_data_info{
-    width: 100%;
+    width: 85%;
     height: 175px;
     background-color: #fff;
     margin-top: 10px;
@@ -1392,11 +1392,11 @@ svg{
 }
 .address_box{
     margin-top: 20px;
-    width: 500px;
+    width: 45%;
 }
 
 .input_box{
-    width: 600px;
+    width: 53%;
     background-color: #f7faff;
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.14);
     border-radius: 10px;;
@@ -1454,7 +1454,118 @@ svg{
 .frombtn:hover{
     background-color: #ff4a54;
 }
-/* ======= About me area start here ===== */
+.secound{
+    font-size: 30px;
+}
+.infoicons{
+    color: #ffffff;
+    font-size: 40px;
+    background-color:#ff4a54 ;
+}
+.add_icon{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #ff4a54;
+    margin: 16px;
+}
+.add_icon_two{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #f7faff;
+    margin: 16px;
+}
+/* ======= footer area start here ===== */
+#footer{
+    padding: 75px 0 ;
+    background: linear-gradient(rgba(0, 0, 0, 0.69),rgba(0, 0, 0, 0.698)),url(../images/footer-bg.jpg); 
+}
+.poterimg{
+    margin-top: 100px;
+    cursor: pointer;
+}
+.rtf{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.kli{
+    font-family: 'Open Sans', sans-serif;
+    color: #ff4a54;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+}
+.ftrtx{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all linear 0.3s;
+    margin-top: 25px;
+}
+.ftrtx:hover{
+    color: #ff4a54;
+}
+.ftrspn{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.ftrlist{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    display: block;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
+.ftrlist:hover{
+    color: #ff4a54;
+    padding-left: 5px;
+}
+.ptrpra{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 20px;
+    line-height: 30px;
+    position: relative;
+}
+.ptrpra::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    left: 0;
+    bottom: -12px;
+}
+.fotericon{
+    color: #ffff;
+    margin: 30px 30px 0 0;
+    cursor: pointer;
+    transition: all linear 0.2s;
+    font-size: 17px;
+}
+.fotericon:hover{
+    color: #ff4a54;
+    font-size: 16px;
+}
 /* ======= About me area start here ===== */
 /* ======= About me area start here ===== */
 /* ======= About me area start here ===== */
