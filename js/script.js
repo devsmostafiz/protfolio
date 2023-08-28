@@ -58,11 +58,7 @@ $(function(){
 })
 
 // ========== Slik clider end here ============
-// $(function(){
-//     $('.personal_info').tilt({
-//         scale: 1.2
-//     })
-// })
+
 
 // ========== Slik clider end here ============
 // ========== mixit start here ============
@@ -73,8 +69,7 @@ $(function(){
             duration: 1000
         }
     });
-    // var containerEl = document.querySelector(".mixit_main");
-    // var mixer = mixitup(containerEl,{animation:{ duration: 1000 }});
+    //  // var mixer = mixitup(containerEl,{animation:{ duration: 1000 }});
 })
 // ========== mixit end here ============
 /* ======= Team Member area start here ===== */

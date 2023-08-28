@@ -1,0 +1,88 @@
+/* ============== Extra Small Device ======== */
+@media(max-width:575.98px){
+    .nav_icon_wrapper{
+        display: none;
+    }
+
+    .bt_first {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        color: #0e121d;
+        padding-top: 15px;
+        text-transform: capitalize;
+    }
+    .bt_secound {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        color: #0e121d;
+    } 
+    .bt_first::after {
+        position: absolute;
+        content: "";
+        left: 80px;
+        top: 33px;
+        width: 51px;
+        height: 2px;
+        background-color: #0e121d;
+    }
+    .banner_text {
+        background-image: url(../images/s1.png);
+        /* width: 315px; */
+        /* height: 500px; */
+        position: relative;
+    }
+    .bnner_btn {
+        font-family: 'Open Sans', sans-serif;
+        color: #ffff;
+        text-transform: capitalize;
+        font-weight: 400;
+        padding: 10px;
+        background-color: #ff4a54;
+        border: 0;
+        border-radius: 10px;
+        transition: all linear 0.3s;
+    }
+    .bt_end {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-transform: capitalize;
+        padding: 0px 4px;
+    }
+    .banner_img::after {
+        /* content: url(../images/s4.png); */
+        /* position: absolute; */
+        /* left: 0; */
+        /* top: 24px; */
+        /* height: 100%; */
+        /* width: 100%; */
+    }
+    .bt_pera::before {
+        position: absolute;
+        content: url(../images/s2.png);
+        left: 0;
+        top: 234px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    /* <!-- ==== About me area start here ======= --> */
+
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+    /* <!-- ==== About me area start here ======= --> */
+
+    
+}
