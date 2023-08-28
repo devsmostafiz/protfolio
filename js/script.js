@@ -1,3 +1,13 @@
+/* ======= Preloader start here ===== */
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
+/* ======= Preloader end here ===== */
+
+
 // <!-- ======= Progress bar start here ======== -->
 
 

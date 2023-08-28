@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is my protfolio</title>
+    <title>Protfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="css/slick.css">
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
+    <div id="preloader"></div>
     <!-- ================== Nav bar start here ================= -->
     <nav class="navbar navbar-expand-lg navbar-light bg-red nav_custom">
         <div class="container">
@@ -37,15 +39,15 @@
                         <a class="nav-link" aria-current="page" href="#tiem_member">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Blog</a>
+                        <a class="nav-link" aria-current="page" href="#blog_news">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link" aria-current="page" href="#footer">Contact</a>
                     </li>
                 </ul>
             </div>
             <div class="nav_icon_wrapper">
-                <i class="fa-brands fa-facebook-f nav_icon"></i>
+                <a href="https://www.facebook.com/profile.php?id=100012769875570"><i class="fa-brands fa-facebook-f nav_icon"></i></a>
                 <i class="fa-brands fa-linkedin nav_icon"></i>
                 <i class="fa-brands fa-twitter nav_icon"></i>
                 <div class="dropdown">
@@ -66,31 +68,31 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="banner_text">
-                    <h4 class="bt_first">hi i'm,</h4>
-                    <h1 class="bt_secound">Mostafijur</h1>
-                    <h1 class="bt_secound">Rohan</h1>
-                    <h6 class="bt_third">im web desigener</h6>
-                    <p class="bt_pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quo laudantium illum totam nobis eveniet ipsa commodi expedita fugiat?</p>
-                    <button class="bnner_btn"><a>about me <i class="fa fa-angle-double-right"></i></a></button>
-                    <span class="bt_end"><i class="fa-solid fa-check abuticon"></i> available for freelancer</span>
+                    <h4 class="bt_first" data-aos="fade-up">hi i'm,</h4>
+                    <h1 class="bt_secound" data-aos="fade-up">Mostafijur</h1>
+                    <h1 class="bt_secound" data-aos="fade-up">Rohan</h1>
+                    <h6 class="bt_third" data-aos="fade-up">im web desigener</h6>
+                    <p class="bt_pera" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quo laudantium illum totam nobis eveniet ipsa commodi expedita fugiat?</p>
+                    <button class="bnner_btn" data-aos="fade-right"><a>about me <i class="fa fa-angle-double-right"></i></a></button>
+                    <span class="bt_end" data-aos="fade-right"><i class="fa-solid fa-check abuticon"></i> available for freelancer</span>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="banner_img">
                     <img class="bng_img" src="images/s3.png">
-                    <div class="personal_info">
+                    <div class="personal_info" data-aos="fade-right">
                         <div class="info">
                             <h5 class="info_title">dte of birth</h5>
                             <h4 class="info_pera">21 dec 2000</h4>
                         </div>
                     </div>
-                    <div class="personal_info_two">
+                    <div class="personal_info_two" data-aos="fade-right">
                         <div class="info">
                             <h5 class="info_title">experience</h5>
                             <h4 class="info_pera">2+ years</h4>
                         </div>
                     </div>
-                    <div class="personal_info_three">
+                    <div class="personal_info_three" data-aos="fade-right">
                         <div class="info">
                             <h5 class="info_title">bron in</h5>
                             <h4 class="info_pera">bangladesh</h4>
@@ -106,23 +108,23 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h1 class="about_head">about me</h1>
-                <h5 class="about_pera">I Really Love To Create Amazing Product</h5>
+                <h1 class="about_head" data-aos="fade-up">about me</h1>
+                <h5 class="about_pera" data-aos="fade-up">I Really Love To Create Amazing Product</h5>
                 <div class="btn_wrapper">
-                    <button class="about_btn">
+                    <button class="about_btn" data-aos="fade-right">
                         <h4>download cv <i class="fa-solid fa-download"></i></h4>
                     </button>
-                    <div class="ab_sk">
+                    <div class="ab_sk" data-aos="fade-right">
                         <h5 class="ab_icon">fb</h5>
                     </div>
-                    <div class="ab_sk">
+                    <div class="ab_sk" data-aos="fade-right">
                         <h5 class="ab_icon">tw</h5>
                     </div>
-                    <div class="ab_sk">
+                    <div class="ab_sk" data-aos="fade-right">
                         <h5 class="ab_icon">li</h5>
                     </div>
                 </div>
-                <div class="address_bar">
+                <div class="address_bar" data-aos="fade-right">
                     <div class="add_info">
                         <div class="add_icon">
                             <i class="fa-regular fa-calendar-days infoicon"></i>
@@ -133,7 +135,7 @@
                         <span class="info_age">23</span>
                     </div>
                 </div>
-                <div class="address_bar_two">
+                <div class="address_bar_two" data-aos="fade-right">
                     <div class="add_info">
                         <div class="add_icon_two">
                             <i class="fa-solid fa-house secound"></i>
@@ -144,7 +146,7 @@
                         <span class="info_age">naogaon</span>
                     </div>
                 </div>
-                <div class="address_bar">
+                <div class="address_bar" data-aos="fade-right">
                     <div class="add_info">
                         <div class="add_icon">
                             <i class="fa-solid fa-location-dot infoicon"></i>
@@ -155,7 +157,7 @@
                         <span class="info_age">Rajshahi</span>
                     </div>
                 </div>
-                <div class="address_bar_two">
+                <div class="address_bar_two" data-aos="fade-right">
                     <div class="add_info">
                         <div class="add_icon_two">
                             <i class="fa-regular fa-envelope secound"></i>
@@ -166,7 +168,7 @@
                         <a class="info_eml">mostafijurminu@gmail.com</a>
                     </div>
                 </div>
-                <div class="address_bar">
+                <div class="address_bar" data-aos="fade-right">
                     <div class="add_info">
                         <div class="add_icon">
                             <i class="fa-solid fa-phone infoicon"></i>
@@ -177,7 +179,7 @@
                         <span class="info_age">01748456508</span>
                     </div>
                 </div>
-                <div class="address_bar_two">
+                <div class="address_bar_two" data-aos="fade-right">
                     <div class="add_info">
                         <div class="add_icon_two">
                             <i class="fa-solid fa-laptop-file secound"></i>
@@ -190,10 +192,10 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <p class="about_pera">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At optio accusamus voluptatum vel saepe dicta a totam facilis modi quidem cupiditate dolorem molestias, totam facilis modi quidem cupiditate dolorem molestias, Amet aliquam, quidem saepe expedita quaerat quisquam eos eveniet laborum.</p>
-                <img class="sing" src="images/sign.png">
+                <p class="about_pera" data-aos="fade-up">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At optio accusamus voluptatum vel saepe dicta a totam facilis modi quidem cupiditate dolorem molestias, totam facilis modi quidem cupiditate dolorem molestias, Amet aliquam, quidem saepe expedita quaerat quisquam eos eveniet laborum.</p>
+                <img class="sing" src="images/sign.png" data-aos="fade-up">
                 <!-- ======= Progress bar start here ======== -->
-                <div class="skill_progress">
+                <div class="skill_progress" data-aos="fade-up">
                     <div class="skill">
                         <div class="outer">
                             <div class="inner">
@@ -219,7 +221,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="skill_progress_two">
+                <div class="skill_progress_two" data-aos="fade-up">
                     <div class="skill">
                         <div class="outer">
                             <div class="inner">
@@ -245,7 +247,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="skill_progress_three">
+                <div class="skill_progress_three" data-aos="fade-up">
                     <div class="skill">
                         <div class="outer">
                             <div class="inner">
@@ -278,15 +280,15 @@
 </section>
 
 <!-- ================== Service area start here ================= -->
-<section id="service">
+<section id="service" data-aos="fade-in">
     <div class="service_head">
         <div class="container">
-            <h1 class="service_header">my services</h1>
-            <h3 class="some_header">some special services</h3>
+            <h1 class="service_header" data-aos="fade-up">my services</h1>
+            <h3 class="some_header" data-aos="fade-up">some special services</h3>
         </div>
         <img class="bg_imgtwo" src="images/s22.png">
     </div>
-    <section id="service_items">
+    <section id="service_items" data-aos="fade-up">
         <div class="container">
             <div class="items_wrapper">
                 <div class="service_card">
@@ -360,12 +362,12 @@
 <!-- ================== Skills area start here ================= -->
 <section id="skills">
     <div class="container">
-        <img class="skill_img" src="images/man.jpg">
+        <img class="skill_img" src="images/dev.jpg">
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-4">
-                <h2 class="skills_title">experince</h2>
-                <div class="data_box" data-tilt>
+                <h2 class="skills_title" data-aos="fade-up">experince</h2>
+                <div class="data_box" data-tilt data-aos="fade-up">
                     <div class="yearss">
                         <div class="circlePointer"></div>
                         <span class="nameOfyear">2017-<br>2020</span>
@@ -375,7 +377,7 @@
                         <span class="nameOfsite">Upwork.com</span>
                     </div>
                 </div>
-                <div class="data_box" data-tilt>
+                <div class="data_box" data-tilt data-aos="fade-up">
                     <div class="yearss">
                         <div class="circlePointer"></div>
                         <span class="nameOfyear">2020-<br>2021</span>
@@ -385,7 +387,7 @@
                         <span class="nameOfsite">Fiver.com</span>
                     </div>
                 </div>
-                <div class="data_box" data-tilt>
+                <div class="data_box" data-tilt data-aos="fade-up">
                     <div class="yearss">
                         <div class="circlePointer"></div>
                         <span class="nameOfyear">2021-<br>2023</span>
@@ -398,8 +400,8 @@
             </div>
             <div class="col-lg-1"></div>
             <div class="col-lg-4">
-                <h2 class="skills_title">aducation</h2>
-                <div class="data_box" data-tilt>
+                <h2 class="skills_title" data-aos="fade-up">aducation</h2>
+                <div class="data_box" data-tilt data-aos="fade-up">
                     <div class="yearss">
                         <div class="circlePointer"></div>
                         <span class="nameOfyear">2011-<br>2017</span>
@@ -409,7 +411,7 @@
                         <span class="nameOfsite">Nazipur Gov High school</span>
                     </div>
                 </div>
-                <div class="data_box" data-tilt>
+                <div class="data_box" data-tilt data-aos="fade-up">
                     <div class="yearss">
                         <div class="circlePointer"></div>
                         <span class="nameOfyear">2018-<br>2019</span>
@@ -419,7 +421,7 @@
                         <span class="nameOfsite">Nazipur gov collage</span>
                     </div>
                 </div>
-                <div class="data_box" data-tilt>
+                <div class="data_box" data-tilt data-aos="fade-up">
                     <div class="yearss">
                         <div class="circlePointer"></div>
                         <span class="nameOfyear">2020-<br>running</span>
@@ -448,7 +450,7 @@
             <button class="control work_mixit_btn" data-filter=".dgmarket">degital marketing</button>
             <button class="control work_mixit_btn" data-filter=".photography">photography</button>
         </div>
-        <div class="mixit_main">
+        <div class="mixit_main" data-aos="fade-up">
             <div class="mix web mixit_item" data-tilt>
                 <img class="mixit_img" src="images/mixit1.jpg">
                 <div class="overlay_mixit">
@@ -456,7 +458,6 @@
                     <i class="fa-solid fa-plus overlay_icon"></i>
                 </div>
             </div>
-
             <div class="mix grafice mixit_item" data-tilt>
                 <img class="mixit_img" src="images/mixit2.jpg">
                 <div class="overlay_mixit">
@@ -506,7 +507,7 @@
                     <i class="fa-solid fa-plus overlay_icon"></i>
                 </div>
             </div>
-            <div class="mix dgmarket mixit_item" data-tilt>
+            <div class="mix dgmarket mixit_item" data-tilt> 
                 <img class="mixit_img" src="images/mixit9.jpg">
                 <div class="overlay_mixit">
                     <span class="overlay_title">fress laptop</span>
@@ -514,7 +515,7 @@
                 </div>
             </div>
         </div>
-        <div class="sockes_btn_wrapper">
+        <div class="sockes_btn_wrapper" data-aos="fade-down">
             <button class="shockes_btn"><a>all projects <i class="fa fa-angle-double-right"></i></a></button>
         </div>
     </div>
@@ -523,40 +524,7 @@
 <!-- ================== Team Member area start here ================= -->
 <section id="tiem_member">
     <div class="team_wrapper">
-        <div class="member">
-            <img class="member_img" src="images/member1.jpg">
-            <div class="team_overlay">
-                <i class="fa-sharp fa-solid fa-arrow-up memicon"></i>
-                <h4 class="member_name">mostafijur rhaman</h4>
-                <h5 class="member_deg">web devloper</h5>
-                <i class="fa-brands fa-facebook-f membercocial"></i>
-                <i class="fa-brands fa-twitter membercocial"></i>
-                <i class="fa-brands fa-instagram membercocial"></i>
-            </div>
-        </div>
-        <div class="member">
-            <img class="member_img" src="images/member2.jpg">
-            <div class="team_overlay">
-                <i class="fa-sharp fa-solid fa-arrow-up memicon"></i>
-                <h4 class="member_name">mostafijur rhaman</h4>
-                <h5 class="member_deg">web devloper</h5>
-                <i class="fa-brands fa-facebook-f membercocial"></i>
-                <i class="fa-brands fa-twitter membercocial"></i>
-                <i class="fa-brands fa-instagram membercocial"></i>
-            </div>
-        </div>
-        <div class="member">
-            <img class="member_img" src="images/member3.jpg">
-            <div class="team_overlay">
-                <i class="fa-sharp fa-solid fa-arrow-up memicon"></i>
-                <h4 class="member_name">mostafijur rhaman</h4>
-                <h5 class="member_deg">web devloper</h5>
-                <i class="fa-brands fa-facebook-f membercocial"></i>
-                <i class="fa-brands fa-twitter membercocial"></i>
-                <i class="fa-brands fa-instagram membercocial"></i>
-            </div>
-        </div>
-        <div class="member">
+        <div class="member" data-aos="fade-down">
             <img class="member_img" src="images/member4.jpg">
             <div class="team_overlay">
                 <i class="fa-sharp fa-solid fa-arrow-up memicon"></i>
@@ -567,7 +535,40 @@
                 <i class="fa-brands fa-instagram membercocial"></i>
             </div>
         </div>
-        <div class="member">
+        <div class="member" data-aos="fade-up">
+            <img class="member_img" src="images/dev2.jpg">
+            <div class="team_overlay">
+                <i class="fa-sharp fa-solid fa-arrow-up memicon"></i>
+                <h4 class="member_name">mostafijur rhaman</h4>
+                <h5 class="member_deg">web designer</h5>
+                <a href="https://www.facebook.com/profile.php?id=100012769875570"><i class="fa-brands fa-facebook-f membercocial"></i></a>
+                <i class="fa-brands fa-twitter membercocial"></i>
+                <i class="fa-brands fa-instagram membercocial"></i>
+            </div>
+        </div>
+        <div class="member" data-aos="fade-down">
+            <img class="member_img" src="images/balal.jpg">
+            <div class="team_overlay">
+                <i class="fa-sharp fa-solid fa-arrow-up memicon"></i>
+                <h4 class="member_name">balal hossan</h4>
+                <h5 class="member_deg">degtal marketing</h5>
+                <a href="https://www.facebook.com/balalrony117"><i class="fa-brands fa-facebook-f membercocial"></i></a>
+                <i class="fa-brands fa-twitter membercocial"></i>
+                <i class="fa-brands fa-instagram membercocial"></i>
+            </div>
+        </div>
+        <div class="member" data-aos="fade-up">
+            <img class="member_img" src="images/dev-adnan.jpg">
+            <div class="team_overlay">
+                <i class="fa-sharp fa-solid fa-arrow-up memicon"></i>
+                <h4 class="member_name">adnan habib</h4>
+                <h5 class="member_deg">web devloper</h5>
+                <a href="https://www.facebook.com/Habibur.00000"><i class="fa-brands fa-facebook-f membercocial"></i></a>
+                <i class="fa-brands fa-twitter membercocial"></i>
+                <i class="fa-brands fa-instagram membercocial"></i>
+            </div>
+        </div>
+        <div class="member" data-aos="fade-down">
             <img class="member_img" src="images/member5.jpg">
             <div class="team_overlay">
                 <i class="fa-sharp fa-solid fa-arrow-up memicon"></i>
@@ -579,17 +580,15 @@
             </div>
         </div>
     </div>
-    <div class="container">
-    </div>
 </section>
 <!-- ================== Pricing Plan area start here ================= -->
 <section id="pricing">
     <div class="container">
-        <h1 class="Pricing_header">Pricing Plan</h1>
-        <h5 class="plan_option">plan option</h5>
+        <h1 class="Pricing_header" data-aos="fade-up">Pricing Plan</h1>
+        <h5 class="plan_option" data-aos="fade-up">plan option</h5>
         <div class="pricing_cards">
             <div class="row perchingcrdsrp">
-                <div class="col-lg-4 ">
+                <div class="col-lg-4 " data-aos="fade-right">
                     <div class="prcitem">
                         <i class="fa-solid fa-layer-group prcicon"></i>
                         <div class="prcng_amout">
@@ -609,7 +608,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ">
+                <div class="col-lg-4 " data-aos="fade-right">
                     <div class="prcitem">
                         <i class="fa-regular fa-lightbulb prcicon"></i>
                         <div class="prcng_amout">
@@ -629,7 +628,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 ">
+                <div class="col-lg-4 " data-aos="fade-right">
                     <div class="prcitem">
                         <i class="fa-solid fa-star-of-david prcicon"></i>
                         <div class="prcng_amout">
@@ -655,12 +654,12 @@
     </div>
 </section>
 <!-- ================== overvew start here ================= -->
-<section id="overvew">
+<section id="overvew" data-aos="fade-up">
     <div class="container">
         <div class="video_box">
-            <h3 class="box_heder">Let’s Create Something<br> Creative Together</h3>
-            <h5 class="box_pera">We can’t wait to hear from making something beautiful and new!</h5>
-            <div class="box_icon_wrap">
+            <h3 class="box_heder" data-aos="fade-up">Let’s Create Something<br> Creative Together</h3>
+            <h5 class="box_pera" data-aos="fade-up">We can’t wait to hear from making something beautiful and new!</h5>
+            <div class="box_icon_wrap" data-aos="fade-up">
                 <i class="fa-solid fa-play box_icon"></i>
             </div>
         </div>
@@ -671,11 +670,11 @@
     <div class="container">
         <div class="nesw_info">
             <div class="news_header">
-                <h1 class="blogtitle">blog news</h1>
-                <span class="blogtitlespn">Latest News Tricks & Update</span>
+                <h1 class="blogtitle" data-aos="fade-up">blog news</h1>
+                <span class="blogtitlespn" data-aos="fade-up">Latest News Tricks & Update</span>
             </div>
             <div class="news_pera">
-                <p class="blogtitlepera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati, ratione nihil magni animi aliquam excepturi maximeobcaecati, ratione nihil magni animi aliquam excepturi maxime hic, alias et error, accusamus eveniet repellat 
+                <p class="blogtitlepera" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati, ratione nihil magni animi aliquam excepturi maximeobcaecati, ratione nihil magni animi aliquam excepturi maxime hic, alias et error, accusamus eveniet repellat 
                     earum! hic, alias et error, accusamus eveniet repellat 
                 earum!</p>
             </div>
@@ -776,11 +775,11 @@
 <section id="location">
     <div class="container">
         <div class="location_map_wrapper">
-            <div class="location_map">
+            <div class="location_map" data-aos="fade-up">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d7268.696687609238!2d88.6079708!3d24.3691826!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbn!2sbd!4v1692905757201!5m2!1sbn!2sbd" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="paddres_wraper">
-                <div class="address_box">
+                <div class="address_box" data-aos="fade-right">
                     <div class="address_bar">
                         <div class="add_info">
                             <div class="add_icon">
@@ -826,7 +825,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="input_box">
+                <div class="input_box" data-aos="fade-right">
                     <input class="inpmen" type="text" placeholder="Name*" required>
                     <input class="inpeml" type="text" placeholder="Email*" required>
                     <input class="inpsub" type="text" placeholder="Subject">
@@ -838,13 +837,14 @@
     </div>
 </section>
 <!-- ================== footer area start here ================= -->
-<section id="footer">
+<section id="footer" data-aos="fade-up">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-right">
                 <a><img class="poterimg" src="images/logo-2.png"></a>
+                <div class="ppme"><img class="minu" src="images/dev2.jpg"></div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-right">
                 <h2 class="rtf">latest <span class="kli">news</span></h2>
                 <a href="#" class="ftrtx">the business of events confirms voting</a>
                 <p class="ftrspn">22 mar, 2008</p>
@@ -853,7 +853,7 @@
                 <a href="#" class="ftrtx">awards coveted people’s choice award</a>
                 <p class="ftrspn">19 dec, 2030</p>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2" data-aos="fade-right">
                 <h2 class="rtf">quick <span class="kli">link</span></h2>
                 <a href="#" class="ftrlist">Product Design</a>
                 <a href="#" class="ftrlist">Development</a>
@@ -863,10 +863,10 @@
                 <a href="#" class="ftrlist">Business Analysis</a>
                 
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-right">
                 <h2 class="rtf">about <span class="kli">me</span></h2>
                 <p class="ptrpra">But I must explain to you how all this mistaken idea of denouncing asure and praising pain was and born I will give you a</p>
-                <a href="#"><i class="fa-brands fa-facebook-f fotericon"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100012769875570"><i class="fa-brands fa-facebook-f fotericon"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter fotericon"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram fotericon"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin fotericon"></i></a>
@@ -895,5 +895,13 @@
 <script src="js/tilt.jquery.js"></script>
 <script src="js/mixitup.min.js"></script>
 <script src="js/script.js"></script>
+<!-- ================== our aos data here ================= -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 120,
+    duration: 1000,
+  });
+</script>
 </body>
 </html>
