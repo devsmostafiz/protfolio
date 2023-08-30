@@ -3,6 +3,25 @@
     .nav_icon_wrapper{
         display: none;
     }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    button, input, optgroup, select, textarea {
+        border: 0 !important ;
+    }
+    .nav_custom {
+        background-color: #fffffff2;
+    }
+    .nav-link::after {
+        display: none;
+    }
+    .nav-item {
+        padding: 0 17px;
+        transition: all linear 0.3s;
+    }
+    .nav-item:hover{
+        margin-left: 15px;
+    }
 
     .bt_first {
         font-family: 'Open Sans', sans-serif;
