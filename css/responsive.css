@@ -230,8 +230,9 @@
         padding: 0;
     }
     /* <!-- ====  Skillarea start here ======= --> */
-    #service {
-        display: none;
+    .service_head {
+        height: 100%;
+        padding-bottom: 41px;
     }
     /* <!-- ==== Skills area start here  ======= --> */
     .skill_img {
@@ -387,9 +388,26 @@
         text-align: center;
         padding-top: 20px;
     }
+    .blogBTN {
+        margin-top: 10px;
+    }
+    .mjy {
+        padding-top: 6px;
+        font-size: 19px;
+    }
+    .blogBTNwrapper {
+        margin-bottom: 10px;
+    }
+    .blog_title_data_wrapper {
+        bottom: 18px;
+    }
+    .blog_data_info {
+        width: 100%;
+    }
     #overvew {
         padding: 0 0 12px 0;
     }
+
     /* <!-- ==== location area start here ======= --> */
     .paddres_wraper {
         display: flex;
@@ -433,6 +451,5 @@
     /* <!-- ==== About me area start here ======= --> */
     /* <!-- ==== About me area start here ======= --> */
     /* <!-- ==== About me area start here ======= --> */
-
     
 }
